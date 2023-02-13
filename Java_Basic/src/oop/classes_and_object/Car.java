@@ -1,4 +1,4 @@
-package oop;
+package oop.classes_and_object;
 
 public class Car {
     private String door;
@@ -54,7 +54,7 @@ public class Car {
 
     public String run (){
         if(door.equals("close") && driver.equals("seated")&&speed>0){
-            return "Car is runing";
+            return "Car is running";
 
         } else {
             return "car is not running";

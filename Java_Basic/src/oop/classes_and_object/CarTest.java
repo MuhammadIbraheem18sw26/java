@@ -1,4 +1,6 @@
-package oop;
+package oop.classes_and_object;
+
+import oop.classes_and_object.Car;
 
 public class CarTest  {
 
