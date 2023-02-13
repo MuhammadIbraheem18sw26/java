@@ -1,3 +1,5 @@
+package javabasics;
+
 import java.util.Locale;
 
 public class DataTypesTest {

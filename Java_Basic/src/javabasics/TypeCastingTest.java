@@ -1,3 +1,5 @@
+package javabasics;
+
 public class TypeCastingTest {
     public static void main(String[] args) {
         // implicit byte -> short -> int->

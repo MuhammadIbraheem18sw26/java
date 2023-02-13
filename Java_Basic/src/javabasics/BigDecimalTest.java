@@ -1,3 +1,5 @@
+package javabasics;
+
 import java.math.BigDecimal;
 
 public class BigDecimalTest {

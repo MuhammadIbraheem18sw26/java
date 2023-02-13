@@ -1,3 +1,5 @@
+package javabasics;
+
 public class LoopsTest {
     public static void main(String[] args) {
         // for loop
