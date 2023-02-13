@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class DataTypesTest {
 
     public static void main(String[] args) {
@@ -14,6 +16,8 @@ public class DataTypesTest {
         char charValue='\u00BB';
 
         System.out.println(intergerValue + " "+ longValue+ " "+ byteValue+ " "+ doubleValue+" "+ floatValue+" " +booleanValue+" "+" "+stringValue+" "+ charValue);
+
+
 
 
     }
