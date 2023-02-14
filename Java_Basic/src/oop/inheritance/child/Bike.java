@@ -18,5 +18,13 @@ public class Bike extends Vehicle {
     public String getHandle() {
         return handle;
     }
+
+    @Override
+    public String toString() {
+        return "Bike{" +
+                "handle='" + getHandle() + '\'' +"lights='" + getLights() + '\'' +
+                "wheels='" + getWheels() + '\'' +
+                '}';
+    }
 }
 
