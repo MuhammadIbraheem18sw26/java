@@ -26,6 +26,22 @@ public class Laptop {
         this.graphicCard = new GraphicCard();
     }
 
+    public float getScreen() {
+        return screen;
+    }
+
+    public String getCacheMemory() {
+        return cacheMemory;
+    }
+
+    public GraphicCard getGraphicCard() {
+        return graphicCard;
+    }
+
+    public ProcessorP getProcessor() {
+        return processor;
+    }
+
     @Override
     public String toString() {
         return "Laptop{" +
@@ -38,6 +54,13 @@ public class Laptop {
 
     public static void main(String[] args) {
         Laptop laptop = new Laptop();
-        System.out.println(laptop);
+        System.out.println(laptop.getProcessor().getProcessorName());
+
+
+        GraphicCard graphicCard1 = new GraphicCard("Nvidia",10.7f);
+        ProcessorP processorP= new ProcessorP("AMD","7800",4,4);
+        Laptop gamingLaptop= new Laptop(10.0f,"4Mb",graphicCard1,processorP);
+
+        System.out.println(gamingLaptop);
     }
 }

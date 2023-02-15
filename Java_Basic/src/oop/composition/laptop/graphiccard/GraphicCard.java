@@ -15,6 +15,14 @@ public class GraphicCard {
         this.price = 16600F;
     }
 
+    public String getGraphicName() {
+        return graphicName;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
     @Override
     public String toString() {
         return "GraphicCard{" +

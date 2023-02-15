@@ -20,6 +20,22 @@ public class ProcessorP {
         this.threads = 4;
     }
 
+    public String getProcessorName() {
+        return processorName;
+    }
+
+    public String getProcessorSeries() {
+        return processorSeries;
+    }
+
+    public int getCores() {
+        return cores;
+    }
+
+    public int getThreads() {
+        return threads;
+    }
+
     @Override
     public String toString() {
         return "ProcessorP{" +
