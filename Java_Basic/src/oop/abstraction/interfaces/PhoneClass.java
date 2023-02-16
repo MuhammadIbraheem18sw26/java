@@ -1,9 +1,9 @@
 package oop.abstraction.interfaces;
 
-public class PhoneClass implements PhoneInterface {
+public class PhoneClass implements PhoneInterface{
     @Override
     public String processor() {
-        return "snapdragon 835";
+        return "a";
     }
 
     @Override
@@ -18,7 +18,10 @@ public class PhoneClass implements PhoneInterface {
 
     public static void main(String[] args) {
         PhoneClass phoneClass= new PhoneClass();
-        System.out.println(phoneClass.GB());
-        PhoneInterface phoneInterface=new PhoneClass();
+        System.out.println(phoneClass.processor());
+
+        String a="abc";
+        System.out.println(a.length());
+
     }
 }
