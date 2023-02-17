@@ -22,6 +22,6 @@ class Demo{
 
         InnerClassDemo innerClassDemo= new InnerClassDemo();
 
-        innerClassDemo.innerDisplay();
+       // innerClassDemo.innerDisplay();
     }
 }
