@@ -30,6 +30,32 @@ public class ArrayTest {
         }
 
     }
+
+    static void checkPalindromeLengthFun(String str){
+        System.out.println("====================Palindrome length=====================");
+        char[] charStr= str.toCharArray();
+
+        int index=1;
+        String str1="";
+        String str2="";
+        for (int i = 0; i <charStr.length ; i++) {
+
+            System.out.println("comparision == char "+ charStr[i]+ " and char negative "+charStr[charStr.length-index]);
+            str1+=charStr[i];
+            str2+=charStr[charStr.length-index];
+            index++;
+        }
+
+        System.out.println(str1 + " and "+str2 );
+
+        if(str1.equals(str2)){
+            System.out.println("The given string is Palindrome");
+        }
+        else {
+            System.out.println("The given string is not Palindrome");
+        }
+
+    }
     public static void main(String[] args) {
         int[] arr = new int[10];
 
@@ -67,7 +93,7 @@ public class ArrayTest {
         }
 
 
-        ArrayTest.checkPalindrome("aziza");
+        ArrayTest.checkPalindromeLengthFun("aziza");
 
     }
 }
