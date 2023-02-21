@@ -8,7 +8,8 @@ public class StackTest {
 
         Stack<Character> characterStack = new Stack<>();
 
-        characterStack.push('a');
+        System.out.println( characterStack.push('a'));
+        System.out.println(characterStack.add('f'));
         characterStack.push('b');
         characterStack.push('c');
         characterStack.push('d');
@@ -27,7 +28,7 @@ public class StackTest {
         }
 
         System.out.println(characterStack.pop());
-        System.out.println(characterStack);
+        System.out.println(characterStack.size());
     }
 
 }

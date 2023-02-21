@@ -26,7 +26,7 @@ public class ArrayListTest {
             System.out.println("List does not contain the element");
         }
 
-        System.out.println(list.size());
+        System.out.println(list);
 
         for (Integer item: list
              ) {
